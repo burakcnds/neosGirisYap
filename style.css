@@ -1,0 +1,76 @@
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    padding: 10px;
+   
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.navbar ul li{
+    padding: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.navbar ul li:hover{
+    background-color: #ccc;
+}
+
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    
+}
+.active{
+    background-color: #ccc;
+}
+/* MAIN */
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    border: 1px solid bl;
+}
+ul{
+    list-style-type: none;
+}
+.kayitol{
+    color: blue;
+}
+.buton{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+
+}
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
